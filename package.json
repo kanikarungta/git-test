@@ -1,0 +1,28 @@
+{
+  "name": "git-test",
+  "version": "1.0.0",
+  "description": "GIt and npm learning",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kanikarungta/git-test.git"
+  },
+  "keywords": [
+    "git",
+    "npm"
+  ],
+  "author": "Kanika Rungta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kanikarungta/git-test/issues"
+  },
+  "homepage": "https://github.com/kanikarungta/git-test#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
